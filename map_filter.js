@@ -8,7 +8,7 @@ const prices = [345, 234, 567, 123, 987];
 
 console.log(345 * 1.18);
 
-const gstPrices = prices.map((p) => { return p * 1.18 });
+const gstPrices = prices.map( (p) => { return p * 1.18 } );
 console.log(gstPrices);
 
 const names = ['john', 'jane', 'jill', 'jack'];
